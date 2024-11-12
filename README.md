@@ -18,6 +18,8 @@ This project provides an in-depth analysis of e-commerce data using Python, SQL,
 - **Source**: [Target Dataset on Kaggle](https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv)
 - **Schema**: 
   - The dataset consists of multiple files detailing products, transactions, and customer information.
+  - ![image](https://github.com/user-attachments/assets/7a797683-16d8-43c9-8d15-23eeab233d11)
+
 
 ## Project Workflow
 1. **Data Preparation**: Converted CSV files to SQL format, enabling efficient querying and data manipulation.
