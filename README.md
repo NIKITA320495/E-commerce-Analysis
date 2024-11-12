@@ -32,33 +32,16 @@ In the initial step, raw CSV files were converted into SQL tables for easier dat
 - Cleaning and transforming data to ensure consistency and accuracy in analysis.
 
 ## SQL Analysis
-This project utilizes advanced SQL querying techniques to gain actionable insights into the e-commerce dataset. Each analysis focuses on a different aspect of the business, from customer segmentation to sales performance and operational efficiency. Below are key SQL analyses conducted:
+Advanced SQL queries provided insights into key business metrics:
 
-1. **Top-Selling Products and Revenue Analysis**  
-   - Identified top-selling products by revenue and quantity sold, providing insights for targeted marketing and effective inventory management.
-
-2. **Customer Segmentation and Purchase Patterns**  
-   - Segmented customers based on purchase frequency and spending, helping the business identify high-value customers and understand purchasing behaviors for personalized marketing.
-
-3. **Sales Trends and Seasonality**  
-   - Conducted time-series analysis to uncover monthly, quarterly, and annual sales trends, which assists in inventory and staffing planning during peak periods.
-
-4. **Customer Retention and Churn Analysis**  
-   - Assessed customer transaction frequency to identify retention rates and churn risks, supporting the development of retention strategies for low-frequency customers.
-
-5. **Revenue Contribution by Region**  
-   - Analyzed revenue by region to create data-driven, region-specific strategies for market expansion.
-
-6. **Impact of Discounts on Sales and Profit Margins**  
-   - Evaluated the effect of discount campaigns on sales volume and overall revenue, providing insights into the profitability of discount strategies.
-
-7. **Shipping and Order Fulfillment Timeliness**  
-   - Assessed order fulfillment rates and shipping times to find logistics bottlenecks, aiming to reduce delivery delays and enhance customer satisfaction.
-
-8. **Product Return Analysis**  
-   - Analyzed return rates by category and reason for returns, helping to refine product descriptions and quality control to reduce returns.
-
-SQL code snippets for these queries are available in the `SQL Queries` folder for easy replication and reference.
+1. **Top Products**: Identified bestsellers by revenue and quantity.
+2. **Customer Segmentation**: Grouped customers by spending and frequency.
+3. **Sales Trends**: Analyzed seasonal and annual sales patterns.
+4. **Customer Retention**: Assessed retention rates and flagged churn risks.
+5. **Regional Revenue**: Evaluated revenue by region for targeted growth.
+6. **Discount Impact**: Measured discount effects on sales and profit.
+7. **Shipping Timeliness**: Identified delivery bottlenecks.
+8. **Product Returns**: Analyzed return rates to improve quality control.
 
 ## Power BI Dashboard
 The Power BI dashboard provides a user-friendly, interactive experience, making it easy to:
