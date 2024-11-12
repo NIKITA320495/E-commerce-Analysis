@@ -1,7 +1,7 @@
 # E-commerce Analysis Project
 
 ## Overview
-This project provides an in-depth analysis of e-commerce data using Python, SQL, and Power BI. By utilizing advanced SQL queries for detailed analysis and creating an interactive Power BI dashboard, it uncovers valuable insights on customer behavior, sales trends, and product performance. This project was inspired by the [Target Dataset from Kaggle](https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv), which includes essential data about products, sales, and customer demographics.
+This project provides an in-depth analysis of e-commerce data using Python, SQL, and Power BI. By utilizing advanced SQL queries for detailed analysis and creating an interactive Power BI dashboard, it uncovers valuable insights into customer behavior, sales trends, and product performance. The project was inspired by the [Target Dataset from Kaggle](https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv), which includes essential data about products, sales, and customer demographics.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -18,7 +18,6 @@ This project provides an in-depth analysis of e-commerce data using Python, SQL,
 - **Source**: [Target Dataset on Kaggle](https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv)
 - **Schema**: 
   - The dataset consists of multiple files detailing products, transactions, and customer information.
-  - ![Schema](https://github.com/user-attachments/assets/345798b9-3e98-435f-9428-d20b965b778e)
 
 ## Project Workflow
 1. **Data Preparation**: Converted CSV files to SQL format, enabling efficient querying and data manipulation.
@@ -34,36 +33,39 @@ In the initial step, raw CSV files were converted into SQL tables for easier dat
 This project utilizes advanced SQL querying techniques to gain actionable insights into the e-commerce dataset. Each analysis focuses on a different aspect of the business, from customer segmentation to sales performance and operational efficiency. Below are key SQL analyses conducted:
 
 1. **Top-Selling Products and Revenue Analysis**  
-   - By querying the transaction and product tables, we identified the top-selling products by revenue and quantity sold. These insights enable targeted marketing for popular items and effective inventory management.
+   - Identified top-selling products by revenue and quantity sold, providing insights for targeted marketing and effective inventory management.
 
 2. **Customer Segmentation and Purchase Patterns**  
-   - Segmented customers based on their purchase frequency and total spending. This segmentation allows the business to identify high-value customers and understand their purchasing patterns, informing personalized marketing strategies and customer retention efforts.
+   - Segmented customers based on purchase frequency and spending, helping the business identify high-value customers and understand purchasing behaviors for personalized marketing.
 
 3. **Sales Trends and Seasonality**  
-   - Conducted a time-series analysis on transaction data to uncover monthly, quarterly, and annual sales trends. Seasonal spikes in sales were identified, enabling strategic planning for inventory and staffing during peak periods.
+   - Conducted time-series analysis to uncover monthly, quarterly, and annual sales trends, which assists in inventory and staffing planning during peak periods.
 
 4. **Customer Retention and Churn Analysis**  
-   - Analyzed customer transaction frequency to assess retention rates and identify churn. Customers with low transaction frequencies were flagged as potential churn risks, guiding retention strategies.
+   - Assessed customer transaction frequency to identify retention rates and churn risks, supporting the development of retention strategies for low-frequency customers.
 
 5. **Revenue Contribution by Region**  
-   - Using geographic information from transaction records, we calculated the revenue contribution by region. This breakdown allows for the development of region-specific strategies to maximize market penetration.
+   - Analyzed revenue by region to create data-driven, region-specific strategies for market expansion.
 
 6. **Impact of Discounts on Sales and Profit Margins**  
-   - Assessed the effectiveness of discount campaigns by comparing sales data before, during, and after promotional periods. This analysis showed the impact of discounts on sales volume and overall revenue, providing insights into the profitability of discount strategies.
+   - Evaluated the effect of discount campaigns on sales volume and overall revenue, providing insights into the profitability of discount strategies.
 
 7. **Shipping and Order Fulfillment Timeliness**  
-   - Analyzed order fulfillment rates and average shipping times to identify bottlenecks in the delivery process. This analysis revealed areas for improvement in logistics, with the goal of reducing delivery times and increasing customer satisfaction.
+   - Assessed order fulfillment rates and shipping times to find logistics bottlenecks, aiming to reduce delivery delays and enhance customer satisfaction.
 
 8. **Product Return Analysis**  
-   - Evaluated return rates by product category and reason for returns. This analysis highlighted products with high return rates, enabling the business to adjust product descriptions, quality checks, or customer expectations to reduce returns.
+   - Analyzed return rates by category and reason for returns, helping to refine product descriptions and quality control to reduce returns.
 
 SQL code snippets for these queries are available in the `SQL Queries` folder for easy replication and reference.
 
 ## Power BI Dashboard
-The Power BI dashboard provides a user-friendly and interactive experience, making it easy to:
+The Power BI dashboard provides a user-friendly, interactive experience, making it easy to:
 - View key performance indicators (KPIs) and metrics.
 - Filter data by dimensions such as product category, time period, and region.
 - Understand trends and patterns intuitively through visualizations.
+
+![Dashboard Page 1](https://github.com/NIKITA320495/E-commerce-Analysis/blob/main/Dashboard/E-commerce%20dashboard1_pages-to-jpg-0001.jpg)
+![Dashboard Page 2](https://github.com/NIKITA320495/E-commerce-Analysis/blob/main/Dashboard/E-commerce%20dashboard_pages-to-jpg-0002.jpg)
 
 The Power BI report file is included in the repository.
 
